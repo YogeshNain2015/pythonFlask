@@ -1,0 +1,4 @@
+py -m venv myenv
+.\myenv\Scripts\activate
+pip freeze > requirements.txt
+python -m pytest or SET PYTHONPATH=src and then run pytest
